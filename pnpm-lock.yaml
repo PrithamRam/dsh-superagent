@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      dsh:
+        specifier: ^1.0.1
+        version: 1.0.1
+
+packages:
+
+  dsh@1.0.1:
+    resolution: {integrity: sha512-gaCZCCRxMsDq2HX4F371AO4SKucUqqiOXzn7aFEvu4Ps2d0gbscniWiiPldvRo1E1afnJ4M2cVs0/ksEbhGI9w==}
+
+  keypress@0.2.1:
+    resolution: {integrity: sha512-HjorDJFNhnM4SicvaUXac0X77NiskggxJdesG72+O5zBKpSqKFCrqmndKVqpu3pFqkla0St6uGk8Ju0sCurrmg==}
+
+  line-by-line@0.1.6:
+    resolution: {integrity: sha512-MmwVPfOyp0lWnEZ3fBA8Ah4pMFvxO6WgWovqZNu7Y4J0TNnGcsV4S1LzECHbdgqk1hoHc2mFP1Axc37YUqwafg==}
+    engines: {node: '>=4.0.0'}
+
+snapshots:
+
+  dsh@1.0.1:
+    dependencies:
+      keypress: 0.2.1
+      line-by-line: 0.1.6
+
+  keypress@0.2.1: {}
+
+  line-by-line@0.1.6: {}
